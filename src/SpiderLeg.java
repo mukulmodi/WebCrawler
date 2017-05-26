@@ -9,16 +9,17 @@
  *  getLink() -- give list of all URLs on the current page
  */
 
-import java.io.IOException;
-import java.util.LinkedList;
-import java.util.List;
-
-//jsoup imports for anything networking related
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+
+import java.io.IOException;
+import java.util.LinkedList;
+import java.util.List;
+
+//jsoup imports for anything networking related
 
 
 public class SpiderLeg
