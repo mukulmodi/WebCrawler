@@ -7,6 +7,6 @@ public class SpiderTest
 	public static void main(String[] args)
 	{
 		Spider spider = new Spider();
-		spider.search("http://www.alankrut.com/", "portfolio");
+		spider.search("http://www.yahoo.com/", "india");
 	}
 }
